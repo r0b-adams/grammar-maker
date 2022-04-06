@@ -1,0 +1,17 @@
+SingularMaleAdjective::=rico|flaco|viejo|pesado|bueno|fuerte|caro|cansado|salado|caliente|barato|aburrido|sucio|verde|azul|delicioso
+PluralMaleAdjective::=ricos|flacos|viejos|pesados|buenos|fuertes|caros|cansados|salados|calientes|baratos|aburridos|sucios|verdes|azules|deliciosos
+SingularFemaleAdjective::=rica|flaca|vieja|pesada|buena|cara|cansada|salada|caliente|barata|aburrida|sucia|verde|azul
+PluralFemaleAdjective::=ricas|flacas|viejas|pesadas|buenas|caras|cansadas|saladas|calientes|baratas|aburridas|sucias|verdes|azules
+PresentVerb::=come|estudia|escribe|quiere|busca|canta|llama|lleva|compra|escucha|rompe|bebe|debe|extraña|comprende
+NounMaleSingular::=cuchillo|zapato|taco|burrito|gato|perro|corazón|clima|idioma|programa|plátano|árbol
+NounMalePlural::=cuchillos|zapatos|tacos|burritos|gatos|perros|corazónes|programas|plátanos|árboles
+NounFemaleSingular::=computadora|puerta|guitarra|ventana|universidad|taza|enchilada|manzana|salud|nariz|rosa|serpiente|foto
+NounFemalePlural::=computadoras|puertas|guitarras|ventanas|universidades|tazas|enchiladas|manzanas|rosas|serpientes|fotos
+ArticleMaleSingular::=el
+ArticleFemaleSingular::=la
+ArticleMalePlural::=los
+ArticleFemalePlural::=las
+NameMale::=Roberto|Rodrigo|Ricardo|Santiago|Tomas|Martin|Gabriel|Mario|Felipe|Vincente|Pablo|Diego|Luis|Sergio
+NameFemale::=Isabella|Claudia|Maria|Maribel|Elena|Laura|Mariana|Martina|Alejandra|Silvana|Josefina|Guadalupe
+NounPhrase::=ArticleMaleSingular NounMaleSingular SingularMaleAdjective|ArticleMalePlural NounMalePlural PluralMaleAdjective|ArticleFemaleSingular NounFemaleSingular SingularFemaleAdjective|ArticleFemalePlural NounFemalePlural PluralFemaleAdjective
+SimpleSentence::=NameMale PresentVerb NounPhrase|NameFemale PresentVerb NounPhrase
